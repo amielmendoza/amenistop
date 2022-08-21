@@ -1,0 +1,13 @@
+Z:\VS Repo\DAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.deps.json
+Z:\VS Repo\DAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.runtimeconfig.json
+Z:\VS Repo\DAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.runtimeconfig.dev.json
+Z:\VS Repo\DAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.pdb
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.csproj.AssemblyReference.cache
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.GeneratedMSBuildEditorConfig.editorconfig
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.AssemblyInfoInputs.cache
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.AssemblyInfo.cs
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.csproj.CoreCompileInputs.cache
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.pdb
+Z:\VS Repo\DAL.AMenistop\obj\Debug\netcoreapp3.1\DAL.AMenistop.genruntimeconfig.cache

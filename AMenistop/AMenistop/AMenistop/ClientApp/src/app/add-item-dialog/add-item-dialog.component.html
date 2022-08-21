@@ -1,0 +1,40 @@
+<h1 mat-dialog-title>Add Store Item</h1>
+<div mat-dialog-content class="dialog-content">
+  <div>
+    <form [formGroup]="form" (ngSubmit)="saveDetails(form)">
+      <div class="row">
+        <mat-form-field appearance="standard">
+          <mat-label>Name</mat-label>
+          <input matInput maxlength="30" inputmode="text" placeholder="Type name" formControlName="name" #nameInput>
+          <mat-error>Name is required</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="standard">
+          <mat-label>Sell Price</mat-label>
+          <input matInput maxlength="10" type="number" placeholder="Type sell price" formControlName="sellPrice" #nameInput>
+          <mat-error>Sell Price is required</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="standard">
+          <mat-label>Buy Price</mat-label>
+          <input matInput maxlength="10" type="number" placeholder="Type buy price" formControlName="buyPrice" #nameInput>
+          <mat-error>Buy Price is required</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="standard">
+          <mat-label>Quantity</mat-label>
+          <input matInput maxlength="4" type="number" placeholder="Type quantity" formControlName="quantity" #nameInput>
+          <mat-error>Quantity is required</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div mat-dialog-actions align="end">
+        <button mat-raised-button color="primary" type="submit" [disabled]="!form.valid" [mat-dialog-close]="storeItem">Submit</button>
+        <button mat-raised-button type="button" (click)="onNoClick()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

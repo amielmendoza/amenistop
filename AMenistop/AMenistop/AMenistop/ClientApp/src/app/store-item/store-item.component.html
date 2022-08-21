@@ -1,0 +1,60 @@
+<h1>Store Items</h1>
+<div class="example-button-row">
+  <a class="fab" mat-fab (click)="openAddDialog()">
+    <mat-icon>add</mat-icon>
+  </a>
+</div>
+
+<div class="example-header">
+  <mat-form-field>
+    <input matInput (keyup)="applyFilter($any($event.target).value)" placeholder="Filter">
+  </mat-form-field>
+</div>
+
+<div class="example-container mat-elevation-z8">
+
+  <mat-table [dataSource]="dataSource" matSort>
+
+    <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef></mat-header-cell>
+      <mat-cell *matCellDef="let row;">
+        <!--<button mat-icon-button (click)="openEditDialog(row)">
+          <mat-icon>edit</mat-icon>
+        </button>-->
+        <button mat-icon-button (click)="openDeleteDialog(row.id)">
+          <mat-icon color="warn">delete</mat-icon>
+        </button>
+      </mat-cell>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.name}} </mat-cell>
+    </ng-container>
+
+    <!-- Sell Price Column -->
+    <ng-container matColumnDef="sellPrice">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Sell Price </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.sellPrice}} </mat-cell>
+    </ng-container>
+
+    <!-- Buy Price Column -->
+    <ng-container matColumnDef="buyPrice">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Buy Price </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.buyPrice}} </mat-cell>
+    </ng-container>
+
+    <!-- Quantity Column -->
+    <ng-container matColumnDef="quantity">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Quantity </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.quantity}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;">
+    </mat-row>
+  </mat-table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+</div>

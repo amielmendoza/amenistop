@@ -1,0 +1,15 @@
+Z:\VS Repo\DAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.deps.json
+Z:\VS Repo\DAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.runtimeconfig.json
+Z:\VS Repo\DAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.pdb
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.csproj.AssemblyReference.cache
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.GeneratedMSBuildEditorConfig.editorconfig
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.AssemblyInfoInputs.cache
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.AssemblyInfo.cs
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.csproj.CoreCompileInputs.cache
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\refint\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.pdb
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\DAL.AMenistop.genruntimeconfig.cache
+Z:\VS Repo\DAL.AMenistop\obj\Release\net6.0\ref\DAL.AMenistop.dll
+Z:\VS Repo\DAL.AMenistop\bin\Release\net6.0\dal_appsettings.json

@@ -1,0 +1,16 @@
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\BAL.AMenistop.deps.json
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\BAL.AMenistop.pdb
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\DAL.AMenistop.pdb
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.csproj.AssemblyReference.cache
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.GeneratedMSBuildEditorConfig.editorconfig
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.AssemblyInfoInputs.cache
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.AssemblyInfo.cs
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.csproj.CoreCompileInputs.cache
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.csproj.CopyComplete
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\refint\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\BAL.AMenistop.pdb
+Z:\VS Repo\BAL.AMenistop\obj\Release\net6.0\ref\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\bin\Release\net6.0\dal_appsettings.json

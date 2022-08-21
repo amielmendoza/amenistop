@@ -1,0 +1,3 @@
+{
+  "ConnStr": "Data Source=.;Initial Catalog=AMenistop;Integrated Security=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+}

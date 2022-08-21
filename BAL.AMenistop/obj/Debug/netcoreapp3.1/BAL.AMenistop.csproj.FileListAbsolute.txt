@@ -1,0 +1,13 @@
+Z:\VS Repo\BAL.AMenistop\bin\Debug\netcoreapp3.1\BAL.AMenistop.deps.json
+Z:\VS Repo\BAL.AMenistop\bin\Debug\netcoreapp3.1\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\bin\Debug\netcoreapp3.1\BAL.AMenistop.pdb
+Z:\VS Repo\BAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\bin\Debug\netcoreapp3.1\DAL.AMenistop.pdb
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.csproj.AssemblyReference.cache
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.GeneratedMSBuildEditorConfig.editorconfig
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.AssemblyInfoInputs.cache
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.AssemblyInfo.cs
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.csproj.CoreCompileInputs.cache
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.csproj.CopyComplete
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.dll
+Z:\VS Repo\BAL.AMenistop\obj\Debug\netcoreapp3.1\BAL.AMenistop.pdb

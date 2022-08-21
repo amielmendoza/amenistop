@@ -1,0 +1,40 @@
+<mat-toolbar class="mat-elevation-z8">
+  <button mat-button class="toolbar-button" routerLink="/counter">
+    <mat-icon>store</mat-icon>
+    <span> AMenistop </span>
+  </button>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <img
+      class="avatar mat-elevation-z8"
+      src="https://scontent-xsp1-1.xx.fbcdn.net/v/t39.30808-6/257382306_10221846697856241_7659732129171152029_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGiEU4lnKgytD6nWd8jkg751xsc2c1W5IbXGxzZzVbkhgrta3r6y3hZl6nn21dzhgQgJlMHqTw1t9u9SFuDvz75&_nc_ohc=3IiIffnXGB8AX-xSzu3&tn=EwHYDchkcosli2o2&_nc_ht=scontent-xsp1-1.xx&oh=00_AT--oh-ahVgN6nXp30zOmzIoP5-5sSw7cfM733S0x91NQw&oe=62FB45AB"
+    />
+
+    <h4 class="name">Amor Mendoza</h4>
+    <p class="designation">Teacher Tindera</p>
+
+    <mat-divider></mat-divider>
+
+    <div *ngFor="let menuItem of menuItems">
+      <button routerLinkActive="active" mat-button class="menu-button" [routerLink]="[menuItem.path]">
+        <mat-icon>{{menuItem.icon}}</mat-icon>
+        <span> {{menuItem.title}} </span>
+      </button>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon>logout</mat-icon>
+      <span> Logout </span>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z8">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
